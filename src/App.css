@@ -1,0 +1,41 @@
+/* src/Students.css */
+
+.students-table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.students-table th,
+.students-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.students-table th {
+  background-color: #f2f2f2;
+}
+
+.students-table td {
+  background-color: #fff;
+}
+
+.students-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.students-table tbody tr:hover {
+  background-color: #e2e2e2;
+}
+
+.pass {
+  color: green;
+}
+
+.fail {
+  color: red;
+}
