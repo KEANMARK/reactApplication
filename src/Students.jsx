@@ -18,12 +18,12 @@ const Students = () => {
   ];
 
   return (
-    <div>
+    <div className="container">
       <h2>Students List</h2>
       <table>
         <thead>
           <tr>
-            <th>Number</th>
+            <th>No.</th>
             <th>Student Name</th>
             <th>Department</th>
             <th>Final Grade</th>

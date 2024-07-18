@@ -1,12 +1,29 @@
 /* src/Students.css */
 
-.students-table {
+/* .students-table {
   width: 80%;
   margin: 20px auto;
   border-collapse: collapse;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  font-family: Arial, sans-serif;
+  box-shadow: 0 10 20px rgba(0, 0, 0, 0.1);
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+} */
+.container {
+  background-color: rgb(208, 205, 205);
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  height: auto;
+  width: auto;
+  place-items: center;
+}
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+  align-items: center;
 }
 
 .students-table th,
@@ -38,4 +55,31 @@
 
 .fail {
   color: red;
+}
+
+/* App.css */
+.container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+  border: 1px solid;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+tr {
+  background-color: #f9f9f9;
 }
